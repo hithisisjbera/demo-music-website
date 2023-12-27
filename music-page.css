@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-Music-Home-Page-container {
+    background-color: #03174c;
+    height: 100vh;
+    width: 100vw;
+}
+
+.blue-color-page-Background-container {
+    background-color: #03174c;
+    width: 350px;
+}
+
+.music-home-page-top-image-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png");
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+}
+
+.music-home-page-content-text-align {
+    text-align: center;
+    padding: 30px;
+}
+
+.heading-text-style {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.Music-Home-page-paragraph-text-style {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.Music-home-page-card-image {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    background-size: cover;
+    height: 150px;
+}
+
+.Music-home-page-card-hedaing-text-style {
+    text-align: center;
+    color: #ffe7bf;
+    font-family: "Bree Serif";
+}
+
+.button-style {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    height: 34px;
+    width: 124px;
+    background-color: #8e97fd;
+    border-radius: 20px;
+    border-width: 0px;
+    margin-bottom: 80px;
+}
+
+.main-Music-Datails-Page-container {
+    background-color: #03174c;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Music-Details-page-top-image-style {
+    width: 350px;
+    height: 250px;
+}
+
+.music-detail-page-paragraph-style {
+    color: #98a1bd;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.music-details-page-bottom-section-padding {
+    padding: 15px;
+}
+
+.details-page-small-heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.details-page-card-image-size {
+    height: 100px;
+}
+
+.details-page-card-heading-style {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 15px;
+}
+
+.card-item-padding {
+    padding: 5px;
+}
