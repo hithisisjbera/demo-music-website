@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="music-page.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionMusicHomePage">
+        <div class="main-Music-Home-Page-container d-flex flex-column justify-content-center">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="blue-color-page-Background-container">
+                    <div class="music-home-page-top-image-container d-flex flex-column justify-content-center">
+                        <div class="music-home-page-content-text-align">
+                            <h1 class="heading-text-style">Sleep Music</h1>
+                            <p class="Music-Home-page-paragraph-text-style">Soothing bedtime music to help you fail
+                                into a deep natural sleep</p>
+                        </div>
+                    </div>
+                    <div class="music-home-page-content-text-align ">
+                        <div class="Music-home-page-card-image d-flex flex-column justify-content-center">
+                            <h1 class="Music-home-page-card-hedaing-text-style">Night Island</h1>
+                        </div>
+                        <p class="Music-Home-page-paragraph-text-style">
+                            Non-stop 8-hour mixes of our most popular
+                            sleep audio
+                        </p>
+                        <div onclick="display ('sectionMusicDetailsPage')">
+                            <button class="button-style">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionMusicDetailsPage">
+        <div class="main-Music-Datails-Page-container d-flex flex-column justify-content-center">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="blue-color-page-Background-container">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" class="Music-Details-page-top-image-style" />
+                    <div class="music-details-page-bottom-section-padding">
+                        <h1 class="heading-text-style">Night Island</h1>
+                        <p class="music-detail-page-paragraph-style">
+                            Ease the mind into a restful night's
+                            sleep with these deep, amblent tones</p>
+                        <p class="music-detail-page-paragraph-style">
+                            45MIN SLEEP MUSIC
+                        </p>
+                        <h1 class="details-page-small-heading">Related</h1>
+                        <div class=" d-flex flex-row">
+                            <div class="card-item-padding">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" class="details-page-card-image-size" />
+                                <h1 class="details-page-card-heading-style">Moon Clouds</h1>
+                                <p class="music-detail-page-paragraph-style">55 MIN SLEEP MUSIC</p>
+                            </div>
+                            <div class="card-item-padding">
+                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" class="details-page-card-image-size" />
+                                <h1 class="details-page-card-heading-style">Sweet Sleep</h1>
+                                <p class="music-detail-page-paragraph-style">60 MIN SLEEP MUSIC</p>
+                            </div>
+                        </div>
+                        <div onclick="display ('sectionMusicHomePage')">
+                            <button class="button-style">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
